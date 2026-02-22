@@ -1,0 +1,12 @@
+{
+  "domain": "growth",
+  "name": "GROWTH - Child Size Tracker",
+  "version": "1.0.0",
+  "documentation": "https://github.com/PolarRaccoon/growth-hacs",
+  "issue_tracker": "https://github.com/PolarRaccoon/growth-hacs/issues",
+  "dependencies": [],
+  "codeowners": [],
+  "requirements": [],
+  "iot_class": "local_push",
+  "config_flow": true
+}
