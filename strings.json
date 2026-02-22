@@ -1,0 +1,50 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Add Child - GROWTH Tracker",
+        "description": "Enter your child's information. Birth date format: YYYY-MM-DD. Measurements in cm/kg.",
+        "data": {
+          "name": "Child's Name",
+          "birth_date": "Birth Date (YYYY-MM-DD)",
+          "gender": "Gender",
+          "height": "Height (cm)",
+          "weight": "Weight (kg)",
+          "chest": "Chest Circumference (cm)",
+          "waist": "Waist Circumference (cm)",
+          "hip": "Hip Circumference (cm)",
+          "foot_length": "Foot Length (cm)"
+        }
+      }
+    },
+    "error": {
+      "invalid_date": "Invalid date. Use YYYY-MM-DD format (e.g. 2018-03-15).",
+      "name_required": "Name is required."
+    },
+    "abort": {
+      "already_configured": "This child is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Update Measurements for {child_name}",
+        "description": "Update measurements. Birth date format: {date_format}. Measurements in cm/kg.",
+        "data": {
+          "name": "Child's Name",
+          "birth_date": "Birth Date (YYYY-MM-DD)",
+          "gender": "Gender",
+          "height": "Height (cm)",
+          "weight": "Weight (kg)",
+          "chest": "Chest Circumference (cm)",
+          "waist": "Waist Circumference (cm)",
+          "hip": "Hip Circumference (cm)",
+          "foot_length": "Foot Length (cm)"
+        }
+      }
+    },
+    "error": {
+      "invalid_date": "Invalid date. Use YYYY-MM-DD format (e.g. 2018-03-15)."
+    }
+  }
+}
