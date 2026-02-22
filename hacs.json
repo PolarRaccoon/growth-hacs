@@ -1,0 +1,6 @@
+{
+  "name": "GROWTH - Child Size Tracker",
+  "domains": ["sensor", "number"],
+  "render_readme": true,
+  "homeassistant": "2026.2.3"
+}
